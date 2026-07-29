@@ -1,0 +1,11 @@
+# REUSE 3.3 manifest of the classification repository (born from the hub, ADR-0020).
+version = 1
+SPDX-PackageName = "classification"
+SPDX-PackageSupplier = "Libre AI <https://github.com/libre-ai>"
+SPDX-PackageDownloadLocation = "https://github.com/libre-ai/classification"
+
+[[annotations]]
+path = ["**"]
+precedence = "closest"
+SPDX-FileCopyrightText = "2026 Libre AI contributors"
+SPDX-License-Identifier = "EUPL-1.2"
